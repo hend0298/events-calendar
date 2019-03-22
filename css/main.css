@@ -3,12 +3,13 @@ html {
 }
 
 td {
-  height: 11em;
+  height: 10em;
 }
 
 .grey {
   background-color: #f2f2f2;
   border-color: #666;
+  color: #333;
 }
 
 .red {
@@ -18,7 +19,7 @@ td {
 }
 
 ul, li {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .green {
@@ -33,6 +34,13 @@ ul, li {
   border-color: #1d38da;
 }
 
+table, th, td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+}
+
 .border {
   border-style: solid;
+  border-width: 1px;
 }
